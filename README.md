@@ -7,3 +7,4 @@ Software design class materials and projects.
 - This readme right now 
 - favorite_hobbies.txt
 - favorite_foods.txt
+- user.txt
