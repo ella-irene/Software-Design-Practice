@@ -5,3 +5,5 @@ Software design class materials and projects.
 
 ## Contents:
 - This readme right now 
+- favorite_hobbies.txt
+- favorite_foods.txt
