@@ -4,7 +4,7 @@ Software design class materials and projects.
 **Created on**: Friday, March 31, 2023
 
 ## Contents:
-- This readme right now 
-- favorite_hobbies.txt
-- favorite_foods.txt
-- user.txt
+- This readme 
+- favorite_hobbies.txt: A list of my favorite foods
+- favorite_foods.txt: A list of my favorite hobbies
+- user.txt: A list of some user stories, acceptance criteria and tests for that user
