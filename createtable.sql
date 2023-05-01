@@ -1,10 +1,10 @@
-DROP TABLE IF EXISTS earthquakes;
-CREATE TABLE earthquakes (
-  quaketime timestamp,
-  latitude float,
-  longitude float,
-  magnitude float,
-  quakeid text,
-  place text,
-  quaketype text
+DROP TABLE IF EXISTS wildlifeMorbidityEvents;
+CREATE TABLE wildlifeMorbidityEvents (
+  numberAffected int,
+  eventStartDate date,
+  eventEndDate date,
+  states text,
+  counties text,
+  species text,
+  eventDiagnosis text
 );
