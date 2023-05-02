@@ -7,4 +7,4 @@ SELECT TOP 1 * FROM wildlifeMorbidityEvents
 SELECT counties FROM wildlifeMorbidityEvents;
 
 /* Get all data for events in rice county starting in 2022 */
-SELECT * FROM wildlifeMorbidityEvents WHERE eventStartDate::date BETWEEN '2022-01-01' AND '2022-12-31';
+SELECT * FROM wildlifeMorbidityEvents WHERE counties = 'Rice County, MN' and eventStartDate::date BETWEEN '2022-01-01' AND '2022-12-31';
