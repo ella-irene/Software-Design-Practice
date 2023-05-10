@@ -17,24 +17,25 @@ with the total number affected.
     wastings disease".
 
 
-User story 2: As a hunter, I want to be able to identify which specific duck species are most affected by parasitism in Minnesota.
+User story 2: As a hunter, I want to be able to identify which specific duck species are most affected by parasitism in
+ Minnesota.
 
-Acceptance criteria: Site should be able to filter by user-input disease, sum the total number of affected by species, and return 
-a list of affected species organized from highest to lowest number affected.
+Acceptance criteria: Site should be able to filter by user-input disease, sum the total number of affected by species, and
+ return a list of affected species organized from highest to lowest number affected.
 
-    Acceptance test 1 - If one valid species is input, site will return an ordered list of every species along with a reported infection by 
-    that disease, ordered from highest to lowest total reported affected.
+    Acceptance test 1 - If one valid disease is input, site will return an ordered list of every species along with a reported 
+    infection by that disease, ordered from highest to lowest total reported affected.
 
     Acceptance test 2 - If no species is affected by user-input disease, site will return "no species have been reported to have 
     been affected by [disease] in Minnesota".
 
 
-User story 3: As a hunter, I want to be able to search which have been the top diseases plaguing turkeys in the past year so that I 
-can search for the counties where those diseases have been reported in turkeys.
+User story 3: As a hunter, I want to be able to search which diseases have been plaguing turkeys in the past year so that I 
+can then search for the counties where those diseases have been reported in turkeys.
 
-Acceptance criteria: A certain time-frame can be searched within the database, given a valid filter.
+Acceptance criteria: A certain time-frame can be searched within the database, given a filter.
 
-    Acceptance test 1 - Given a valid start date, end date, and a valid species, a list of the diseases which have been reported for
-    only that specific species will be output.
+    Acceptance test 1 - Given a valid start date [01-01-2020], end date [01-01-2021], and a valid species [Turkey], a list of
+    the diseases which have been reported for only that specific species and timerange will be output.
 
-    Acceptance test 2 - If a date before 1992 or after 2023 is input, site will output - "time range is invalid".
+    Acceptance test 2 - If a date before 01-01-1992 or after 01-01-2023 is input, site will output - "time range is invalid".
