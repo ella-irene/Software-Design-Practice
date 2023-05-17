@@ -1,24 +1,24 @@
 body {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: whitesmoke;
+    background-color: #f1f8e9;
 }
 
 h1 {
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: green;
-    color: white;
+    background-color:  #9e9d24;
+    color: #f1f8e9;
     text-align: center;
     border-radius: 8px;
 }
 
 h1, h2 {
-   font-family: Verdana, Geneva, sans-serif; 
+   font-family: 'Corbel', 'Corbel light', sans-serif;
 }
 
 p {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Corbel', 'Corbel light', sans-serif;
     line-height: 1.4;
 }
 
@@ -32,7 +32,9 @@ figcaption {
 }
 
 img {
-    border: 2px solid black;
+    width: 30%;
+    height: auto;
+    border: 2px #827717;
     border-radius: 8px;
 }
 
@@ -46,7 +48,7 @@ ul {
 }
 
 li {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Corbel', 'Corbel light', sans-serif;
     line-height: 1.4;
 }
 
@@ -55,9 +57,9 @@ div.content {
 }
 
 div.highlight {
-    background-color: azure;
+    background-color: #f9fbe7;
     width: 300px;
-    border: 2px solid blue;
+    border: 2px solid #827717;
     border-radius: 8px;
     float: right;
     padding: 10px;
@@ -66,7 +68,7 @@ div.highlight {
 
 
 nav ul {
-    border: 2px solid blue;
+    border: 2px solid #827717;
     border-radius: 8px;
     list-style-type: none;
     overflow: hidden;
@@ -81,7 +83,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: blue;
+    color: #827717;
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
@@ -89,5 +91,5 @@ nav li a {
 
 nav li a:hover {
     color: white;
-    background-color: blue;
+    background-color: #827717;
 }

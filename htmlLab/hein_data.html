@@ -1,0 +1,59 @@
+<html lang="en"> <!-- all pages start and end with this tag -->
+<!-- Header information: links to external scripts and style files, other metadata about the page. -->
+<head>
+    <!-- The title is mandatory. If you use tabs, the title appears in the page's tab in your browser.-->
+    <title>MN Wildlife Morbidity and Mortality Tracker</title>
+    <link rel="stylesheet" href="datastyle.css">
+    </head>
+    <!-- The body consists of the visible parts of the web page. -->
+    <body>
+    <h1>MN Wildlife Morbidity and Mortality Tracker</h1>
+
+    <nav>
+        <ul>
+        <li><a href="#why">Search the Database</a></li>
+        <li><a href="#fun">Data Source</a></li>
+        <li><a href="#data">About the Data</a></li>
+        </ul>
+        </nav>
+        
+        <!-- You'll notice that I use div tags throughout. They don't do anything yet. Think of them as ways to group entities logically. I'll apply different styles to them later using CSS. -->
+        
+        <div class="highlight">
+        <h2 id="data">Data source</h2>
+        <p><a href="https://whispers.usgs.gov/home">WHISpers: Wildlife Health Informations Sharing Partnership</a></p>
+        <p>Data retrieved on April 12, 2023 for the date range 01-01-1992 to 01-01-2023.</p>
+        <p><a href="https://www.usgs.gov/centers/nwhc/science/whispers">Metadata</a></p>
+        </div>
+        
+        <div class="content">
+        <h2 id="search">Search the Database</h2>
+        <p>Ever since I lived in the San Francisco Bay area, I've found earthquakes fascinating. I <a href="https://earthquake.usgs.gov/earthquakes/eventpage/usp000b49u/executive">experienced one earthquake</a> while living there (4.9 on the <a href="https://earthquake.usgs.gov/learn/glossary/?term=Richter%20scale">Richter scale</a>), and late at night on <a href="http://weather.com">The Weather Channel</a> I used to watch the earthquake reports.</p>
+        
+        <p>I always thought of earthquakes as "large destructive events", but watching The Weather Channel taught me that most earthquakes are small and imperceptible. I became interested in learning more about where earthquakes happened most often, what foreshocks and aftershocks appeared around major earthquakes, and so on.</p>
+        
+        <p>I also use earthquake data in Intro CS when I cover data visualization, because the data is fairly easy to understand and process, there are few "holes", and the data lends itself well to mapping on existing world maps. This also gives students practice converting longitude and latitude to x-y coordinates. </p>
+        </div>
+        
+        <div>
+        <h2 id="about">About the Data</h2>
+        <p>Excerpted from the <a href="https://www.usgs.gov/natural-hazards/earthquake-hazards/science/cool-earthquake-facts?qt-science_center_objects=0#qt-science_center_objects">USGS' "Cool Earthquake Facts" page.</a></p>
+        
+        <figure>
+        <img src="Minnesota Map.webp" alt="MN Map"/>
+        <figcaption><a href="https://www.usgs.gov/media/images/snow-plow-theory-0">Image source</a></figcaption>
+        </figure>
+        
+        <ul>
+        <li>Largest earthquake in US: 9.2, Prince William Sound, AK, 28 March 1964.</li>
+        <li>Largest (recorded) earthquake in the world: 9.5, Chile, 22 May 1960.</li>
+        <li>There are approximately 500,000 detectable earthquakes worldwide each year. 20% of these can be felt, and only 100 cause damage.</li>
+        <li>In addition to earthquakes, Antarctica also has icequakes, which occur in the ice sheet rather than in land.</li>
+        <li>US states with the fewest earthquakes: Florida and North Dakota.</li>
+        </ul>
+        </div>
+        
+        <!-- always end your page with these tags! -->
+        </body>
+        </html>
+    
