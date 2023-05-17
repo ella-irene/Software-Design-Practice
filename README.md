@@ -7,12 +7,14 @@ Software design individaul class materials and projects. Member a part of group 
 - This readme 
 - favorite_hobbies.txt: A list of my favorite foods
 - favorite_foods.txt: A list of my favorite hobbies
-- user.txt: A list of some user stories, acceptance criteria and tests for that user
+- Users: A list of some user stories, acceptance criteria and tests for that user
 - sqlLab: Some materials for the SQL lab done in class with earthquake database
 - database:
     - createtable.sql
     - sampleQueries.sql
     - WHISPersDataCleaned.csv
+- htmlLab: Some practice with HTML files
+- FlaskLab: Some practice with Flask 
 
 ## Summary: Design and development of database 
 The dataset for this project is record of reported wildlife morbidity/mortality events in Minnesota. The original dataset had 11 columns and 287 rows from which I eliminated all of the columns which did not vary between events: 'country', 'public', and 'event type'. In addition, I eliminated the 'event ID' column which is not useful for this project. I chose to copy all of the data into one table in the database because most events have multiple counties, multiple species, and multiple diagnosis. The overlap in these columns made it less efficient to split into multiple tables. 
