@@ -1,5 +1,5 @@
 # cs-257
-Software design individaul class materials and projects. Member a part of group H.
+Software design individual class materials and projects. Member a part of group H.
 
 **Created on**: Friday, March 31, 2023
 
